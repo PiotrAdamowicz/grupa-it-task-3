@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #3c414b;
+}
+.listItem {
+  margin-bottom: 0.5rem;
+}
+.taskWrapper {
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 380px;
+  margin: 2rem auto;
+}
+.listHeader {
+  margin-bottom: 1rem;
+}
